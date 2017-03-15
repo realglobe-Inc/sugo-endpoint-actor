@@ -26,7 +26,7 @@ const server = sgServer({
   ],
   endpoints: {
     // Exports actor module functions as http endpoint (like "/api/greeting/say-hello")
-    '/api/:module/:method': sugoEndpointActor(httpActor)
+    '/api/:module/:method': { POST: sugoEndpointActor(httpActor) }
   }
 })
 
