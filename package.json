@@ -1,0 +1,48 @@
+{
+  "name": "sugo-endpoint-actor",
+  "version": "1.0.0",
+  "description": "Convert actor module methods into http endpoints",
+  "main": "lib",
+  "scripts": {
+    "preapre": "node ./ci/build.js",
+    "test": "node ./ci/test.js"
+  },
+  "repository": "realglobe-Inc/sugo-endpoint-actor",
+  "keywords": [
+    "SUGOS",
+    "endpoint"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinish@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/sugo-endpoint-actor/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/sugo-endpoint-actor#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.2.0",
+    "stringcase": "^3.2.1"
+  },
+  "devDependencies": {
+    "ape-doc": "^2.0.4",
+    "ape-tmpl": "^5.0.12",
+    "aport": "^1.0.0",
+    "arequest": "^2.0.5",
+    "asleep": "^1.0.3",
+    "coz": "^6.0.5",
+    "injectmock": "^2.0.0",
+    "sg-server": "^1.2.8",
+    "sugo-actor": "^4.6.4",
+    "sugo-ci-endpoint": "^1.0.0",
+    "sugos-assets": "^2.0.1",
+    "sugos-travis": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}
